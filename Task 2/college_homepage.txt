@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>E-Commerce Online Shopping Website</title>
+<style>
+    .body {
+        background-color: #ffff;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        margin: 0;
+        padding: 20px;
+    }
+    .btn span, .btn .caret {
+        margin: 10px;
+    }
+    .dropdown-submenu {
+        position: relative;
+    }
+    .dropdown-submenu .dropdown-menu {
+        top: 0;
+        left: 100%;
+        margin-top: -1px;
+    }
+</style>
+</head>
+<body>
+<div class="container">                                       
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" style="border: none">Electronics<span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li class="dropdown-submenu">
+        <a class="test" href="#">Mobile <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="#">Apple</a></li>
+            <li><a href="#">Samsung</a></li>
+            <li><a href="#">Redmi</a></li>
+            <li><a href="#">One plus</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" style="border: none">Clothing<span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li class="dropdown-submenu">
+        <a class="test" href="#">Jeans <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="#">Pepe Jeans</a></li>
+            <li><a href="#">Levi's</a></li>
+            <li><a href="#">GUCCI</a></li>
+            <li><a href="#">Chanel</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" style="border: none">Footwear<span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li class="dropdown-submenu">
+        <a class="test" href="#">Shoes <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Nike</a></li>
+          <li><a href="#">Puma</a></li>
+          <li><a href="#">Woodland</a></li>
+          <li><a href="#">Adidas</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" style="border: none">Furniture<span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li class="dropdown-submenu">
+        <a class="test" href="#">Sofa <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="#">IKEA</a></li>
+            <li><a href="#">Steelcase</a></li>
+            <li><a href="#">Burrow</a></li>
+            <li><a href="#">Castlery</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<script>
+$(document).ready(function(){
+  $('.dropdown-submenu a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+</script>
+
+</body>
+</html>
