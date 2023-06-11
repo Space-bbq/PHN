@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: rgb(245, 240, 240) !important;
+    /* height: 200vh; */
+}
+.heading-logo {
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.nav-item .nav-link {
+    color: rgba(8, 8, 8, 0.685);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+.nav-item .nav-link:hover {
+    color: rgba(255, 102, 0, 0.911);
+}
+.user {
+    padding: 0px 6px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 4px;
+}
+.d-flex button {
+    color: rgb(209, 95, 2);
+    border-color: rgb(209, 95, 2);
+}
+.d-flex button:hover {
+    color: white;
+    background-color: rgb(209, 95, 2);
+    border-color: rgb(209, 95, 2);
+}
+.heading-lg {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 50px 90px 30px 90px;
+}
+.bookings-list {
+    width: 100%;
+    height: 100%;
+    padding: 0px 90px;
+    text-align: left;
+}
+.img {
+    object-fit: fill;
+    object-position: left;
+}
+.card-body {
+    padding: 0rem;
+}
+.btn-close {
+    transition: all ease-in-out 0.2s;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.btn-close:hover {
+    background-color: #ddd;
+}
+.card {
+    position:relative;
+}
+.card:hover {
+    box-shadow: 2px 2px 14px rgb(145, 142, 142);
+}
+
+
+
+
+.heading-lg-ratings {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 50px 90px 80px 90px;
+    text-align: center;
+}
+.rating {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rating-box {
+    position: relative;
+    background: #fff;
+    padding: 25px 50px 35px;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+.rating-box header {
+  font-size: 22px;
+  color: #dadada;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.rating-box .stars {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.stars i {
+  color: #e6e6e6;
+  font-size: 35px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+.stars i.active {
+  color: #ff9c1a;
+}
+.reviews {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.review-box {
+    position: relative;
+    background: #fff;
+    padding: 25px 50px;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+.review-box header {
+  font-size: 22px;
+  color: #dadada;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+footer {
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(31, 29, 29);
+    padding: 24px;
+}
+.footer-container {
+    margin-top: 20px;
+    padding: 30px 4px 9px 4px;
+}
+.footer-logo {
+    color: rgba(255, 255, 255, 0.863);
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+.footer-para {
+    font-size: 14px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.534);
+    margin: 25px 0px;
+}
+.heading-sm-footer {
+    color: rgba(255, 255, 255, 0.863);
+    font-size: 22px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    margin: 18px 0px;
+}
+.social-links-footer {
+    margin: 16px 0px;
+}
+.social-links-footer i {
+    font-size: 21px;
+    padding: 9px;
+    border: 1px solid rgb(209, 95, 2);
+    color: rgb(209, 95, 2);
+    margin: 0px 4px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.social-links-footer i:hover {
+    background-color: rgb(209, 95, 2);
+    color: white;
+}
+.pages-footer {
+    padding: 6px 18px;
+}
+.heading-pages {
+    color: rgba(255, 255, 255, 0.863);
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.footer-links {
+    color: rgba(255, 255, 255, 0.534) !important;
+    font-size: 15px !important;
+}
+.footer-links:hover {
+    color: white !important;
+}
+.contact-footer {
+    display: flex;
+    flex-direction: column;
+}
+.text-contact {
+    margin: 16px 0px;
+    color: white;
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.534);
+}
+.contact-footer i {
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.534);
+    padding: 0px 9px;
+}
+.footer-rights {
+    margin-top: 2px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rights-para {
+    margin: 0px;
+    color: rgba(255, 255, 255, 0.623);
+    font-size: 16px;
+}
