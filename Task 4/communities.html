@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Astronomy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="communities.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Astronomy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">It's all about FUN</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 bg-dark" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-secondary d-inline-flex align-items-center" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <h1 class="my-4 text-center">Upcoming Events</h1>
+    <div class="container">
+        <main>
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Star Gazing.jpg" height="100%" width="100%">
+                        <div class="container">
+                            <div class="carousel-caption text-start">
+                                <h1 class="outline">Overnight Star Gazing</h1>
+                                <p class="outline">Seasonal Event</p>
+                                <p><a class="btn btn-lg btn-primary" href="#">Know more</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="meteor shower.webp" height="100%" width="100%">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1 class="outline">Orionid Meteor Shower</h1>
+                                <p class="outline">One time Event</p>
+                                <p><a class="btn btn-lg btn-primary" href="#">Know more</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="planets in line.jpg" height="100%" width="100%">
+                        <div class="container">
+                            <div class="carousel-caption text-end">
+                                <h1 class="outline">Planets in Line</h1>
+                                <p class="outline">Once in a Life Time Event</p>
+                                <p><a class="btn btn-lg btn-primary" href="#">Know more</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Venues</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title"><small class="text-muted fw-light">Pune</small></h1>
+                            <h1 class="card-title pricing-card-title"><small class="text-muted fw-light">Karnataka</small></h1>
+                            <h1 class="card-title pricing-card-title"><small class="text-muted fw-light">Ladakh</small></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Timings</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title"><small class="text-muted fw-light">10th April: 7pm-7am</small></h1>
+                            <h1 class="card-title pricing-card-title"><small class="text-muted fw-light">21st Oct: 9pm-7am</small></h1>
+                            <h1 class="card-title pricing-card-title"><small class="text-muted fw-light">12th Dec: 8pm-7am</small></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Fees</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title"><small class="text-muted fw-light">1000/-</small></h1>
+                            <h1 class="card-title pricing-card-title"><small class="text-muted fw-light">1200/-</small></h1>
+                            <h1 class="card-title pricing-card-title"><small class="text-muted fw-light">2200/-</small></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <hr>
+
+            <div class="container marketing">
+                <p class="featured-content">Featured Content</p>
+                <!-- Three columns of text below the carousel -->
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="astrobiology.jpg" height="100%" width="100%" class="rounded-circle">
+                        <h2 class="fw-normal">Astrobiology</h2>
+                        <p>The study of life in the universe, the search for life beyond the Earth requires an understanding of life, and the nature of the environments that support it</p>
+                        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="astrophysics.jpg" height="100%" width="100%" class="rounded-circle">
+                        <h2 class="fw-normal">Astrophysics</h2>
+                        <p>A branch of space science that applies the laws of physics and chemistry to understand the universe and our place in it.</p>
+                        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="cosmology.jfif" height="100%" width="100%" class="rounded-circle">
+                        <h2 class="fw-normal">Cosmology</h2>
+                        <p>A branch of astronomy that involves the origin and evolution of the universe, from the Big Bang to today and on into the future.</p>
+                        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                    </div>
+                </div>
+
+            <hr>
+
+            <h2 class="featured-content display-6 text-center mb-4">Recent Updates</h2>
+            <div class="table-responsive">
+                <table class="table text-center">
+                    <thead>
+                        <tr>
+                            <th style="width: 22%;"></th>
+                            <th style="width: 22%;"> Date </th>
+                            <th style="width: 22%;"> Venue </th>
+                            <th style="width: 22%;"> Details </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="text-start" id="bang">Pune</th>
+                            <td><span>25/04/2023</span></td>
+                            <td><span>Observatory</span></td>
+                            <td><span>Observing zero shadow day</span></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-start">Ladakh</th>
+                            <td><span>22/04/2023</span></td>
+                            <td><span></span>All over Ladakh</td>
+                            <td><span>Northern Lights</span></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-start">Karnataka</th>
+                            <td><span>19/03/2023</span></td>
+                            <td><span>Farms</span></td>
+                            <td><span>Mini Neptune Reveal</span></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-start">Pune</th>
+                            <td><span>25/02/2023</span></td>
+                            <td><span>Observatory</span></td>
+                            <td><span>Passing of ISS</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <!--Links-->
+        <div class="nudge">
+            <a href="#">FAQ &nbsp;|&nbsp;</a>
+            <a href="#">Contact Us &nbsp;|&nbsp;</a>
+            <a href="#">Terms of Use &nbsp;|&nbsp;</a>
+            <a href="#">Privacy Policy &nbsp;|&nbsp;</a>
+            <a href="#">Refund Policy &nbsp;|&nbsp;</a>
+            <a href="#">&copy; 2023 - Astronomy</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
